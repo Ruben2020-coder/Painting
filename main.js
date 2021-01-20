@@ -8,7 +8,7 @@ new_width=screen.width-70;
 new_height=screen.heigth-300;
 if(width<992){
 document.getElementById("myCanvas").width=new_width;
-document.getElementById("myCanvas").width=new_height;
+document.getElementById("myCanvas").heigth=new_height;
 document.body.style.overflow="hidden";
 }  
 
